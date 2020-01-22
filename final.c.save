@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+float areaOfRectangle(float length, float width)
+{
+	float rectarea = (length * width);
+	return rectarea;
+}
+
+float areaOfTriangle(float base, float height)
+{
+	float triarea = ((base * height)/2);
+	return triarea;
+}
+float areaOfCircle(float radius) 
+{
+	float area = (3.14159265358979323846 * radius * radius);
+	return area;
+}
+
+
+
+int main(int argc, char* argv[])
+{
+ int choice=(int)atof(argv[1]);
+ if (choice == 1)
+  { 
+	float length = atof(argv[2]);
+	float width = atof(argv[3]);
+	float rectarea = areaOfRectangle(length, width);
+	printf("the area of the rectangle is %f\n", rectarea);
+  }
+  if (choice == 2)
+   {
+	float base = atof(argv[2]);
+	float height = atof(argv[3]);
+	float triarea = areaOfTriangle(base,height);
+	printf("the area of the triangle is %f\n", triarea);
+   }
+}

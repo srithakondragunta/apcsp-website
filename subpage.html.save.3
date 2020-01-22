@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>Student page</title>
+   </head>
+   <body>
+
+      <h1> Hey this is my subpage</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Synopsis/Syntax</th>
+    <th >Description</th>
+    <th Example</th>
+  </tr>
+  <tr>
+    <td>Echo hello world</td>
+    <td>echo [SHORT-OPTION]... [STRING]...<br><br>       echo LONG-OPTION</td>
+    <td >Replies with hello world/ text after echo</td>
+    <td >sp1a@rpi08:~ $ echo hello world<br><br><br>hello world</td>
+  </tr>
+  <tr>
+    <td>date</td>
+    <td>date [OPTION]... [+FORMAT]<br><br>       date [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]</td>
+    <td>Responds with the date, time and time region</td>
+    <td>sp1a@rpi08:~ $ date<br><br>Tue 03 Dec 2019 12:19:37 PM PST</td>
+  </tr>
+  <tr>
+    <td>Hostname</td>
+    <td>hostname  [-a|--alias] [-d|--domain] [-f|--fqdn|--long] [-A|--all-fqdns] [-i|--ip-address]<br><br>       [-I|--all-ip-addresses] [-s|--short] [-y|--yp|--nis]<br><br>       hostname [-b|--boot] [-F|--file filename] [hostname]<br><br>       hostname [-h|--help] [-V|--version]<br><br><br>       domainname [nisdomain] [-F file]<br><br>       ypdomainname [nisdomain] [-F file]<br><br>       nisdomainname [nisdomain] [-F file]<br><br><br>       dnsdomainname</td>
+    <td>Responds with host/ username name</td>
+    <td>sp1a@rpi08:~ $ hostname<br><br>rpi08</td>
+  </tr>
+  <tr>
+    <td>Arch</td>
+    <td>arch [OPTION]...</td>
+    <td>Responds with processor and model number</td>
+    <td>sp1a@rpi08:~ $ arch<br><br>armv7l</td>
+  </tr>
+  <tr>
+    <td >Uname - a</td>
+    <td >uname [OPTION]...</td>
+    <td >Responds with type of unix that has branched down from the original unix/linux</td>
+    <td >sp1a@rpi08:~ $ uname -a<br><br>Linux rpi08 4.19.75-v7+ #1270 SMP Tue Sep 24 18:45:11 BST 2019 armv7l GNU/Linux</td>
+  </tr>
+  <tr>
+    <td>Uptime</td>
+    <td>uptime [options]</td>
+    <td>Responds with amount of time it has been running</td>
+    <td>sp1a@rpi08:~ $ uptime<br><br> 12:32:55 up 1 day,  5:13,  3 users,  load average: 0.00, 0.00, 0.00</td>
+  </tr>
+  <tr>
+    <td>Who</td>
+    <td>who [OPTION]... [ FILE | ARG1 ARG2 ]</td>
+    <td>Print information about users who are currently logged in.</td>
+    <td>sp1a@rpi08:~ $ who<br><br>sp1b     pts/0        2019-12-03 11:51 (172.19.32.54)<br><br>sp1a     pts/1        2019-12-03 11:53 (172.19.32.27)<br><br>sp1b     pts/2        2019-12-03 11:53 (172.19.32.54)</td>
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>id [OPTION]... [USER]</td>
+    <td>Print  user  and  group information for the specified USER, or (when USER omitted) for the<br><br>       current user.</td>
+    <td>sp1a@rpi08:~ $ id<br><br>uid=1001(sp1a) gid=1001(sp1a) groups=1001(sp1a),997(gpio)</td>
+  </tr>
+  <tr>
+    <td>Clear</td>
+    <td>clear [-Ttype] [-V] [-x]</td>
+    <td>Clear all previous commands</td>
+    <td>sp1a@rpi08:~ $</td>
+  </tr>
+  <tr>
+    <td>w</td>
+    <td>w [options] user [...]</td>
+    <td>w displays information about the users currently on the machine, and their processes.  The<br><br>       header shows, in this order, the current time, how long the system has been  running,  how<br><br>       many users are currently logged on, and the system load averages for the past 1, 5, and 15<br><br>       minutes.</td>
+    <td>12:41:03 up 1 day,  5:21,  3 users,  load average: 0.02, 0.02, 0.00<br><br>USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT<br><br>sp1b     pts/0    172.19.32.54     11:51   49:44   0.25s  0.25s -bash<br><br>sp1a     pts/1    172.19.32.27     11:53    2.00s  0.43s  0.03s w<br><br>sp1b     pts/2    172.19.32.54     11:53    1:52   0.37s  0.37s -bash</td>
+  </tr>
+</table><table>
+  <tr>
+    <th>Name</th>
+    <th>Synopsis/Syntax</th>
+    <th >Description</th>
+    <th Example</th>
+  </tr>
+  <tr>
+    <td>Echo hello world</td>
+    <td>echo [SHORT-OPTION]... [STRING]...<br><br>       echo LONG-OPTION</td>
+    <td >Replies with hello world/ text after echo</td>
+    <td >sp1a@rpi08:~ $ echo hello world<br><br><br>hello world</td>
+  </tr>
+  <tr>
+    <td>date</td>
+    <td>date [OPTION]... [+FORMAT]<br><br>       date [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]</td>
+    <td>Responds with the date, time and time region</td>
+    <td>sp1a@rpi08:~ $ date<br><br>Tue 03 Dec 2019 12:19:37 PM PST</td>
+  </tr>
+  <tr>
+    <td>Hostname</td>
+    <td>hostname  [-a|--alias] [-d|--domain] [-f|--fqdn|--long] [-A|--all-fqdns] [-i|--ip-address]<br><br>       [-I|--all-ip-addresses] [-s|--short] [-y|--yp|--nis]<br><br>       hostname [-b|--boot] [-F|--file filename] [hostname]<br><br>       hostname [-h|--help] [-V|--version]<br><br><br>       domainname [nisdomain] [-F file]<br><br>       ypdomainname [nisdomain] [-F file]<br><br>       nisdomainname [nisdomain] [-F file]<br><br><br>       dnsdomainname</td>
+    <td>Responds with host/ username name</td>
+    <td>sp1a@rpi08:~ $ hostname<br><br>rpi08</td>
+  </tr>
+  <tr>
+    <td>Arch</td>
+    <td>arch [OPTION]...</td>
+    <td>Responds with processor and model number</td>
+    <td>sp1a@rpi08:~ $ arch<br><br>armv7l</td>
+  </tr>
+  <tr>
+    <td >Uname - a</td>
+    <td >uname [OPTION]...</td>
+    <td >Responds with type of unix that has branched down from the original unix/linux</td>
+    <td >sp1a@rpi08:~ $ uname -a<br><br>Linux rpi08 4.19.75-v7+ #1270 SMP Tue Sep 24 18:45:11 BST 2019 armv7l GNU/Linux</td>
+  </tr>
+  <tr>
+    <td>Uptime</td>
+    <td>uptime [options]</td>
+    <td>Responds with amount of time it has been running</td>
+    <td>sp1a@rpi08:~ $ uptime<br><br> 12:32:55 up 1 day,  5:13,  3 users,  load average: 0.00, 0.00, 0.00</td>
+  </tr>
+  <tr>
+    <td>Who</td>
+    <td>who [OPTION]... [ FILE | ARG1 ARG2 ]</td>
+    <td>Print information about users who are currently logged in.</td>
+    <td>sp1a@rpi08:~ $ who<br><br>sp1b     pts/0        2019-12-03 11:51 (172.19.32.54)<br><br>sp1a     pts/1        2019-12-03 11:53 (172.19.32.27)<br><br>sp1b     pts/2        2019-12-03 11:53 (172.19.32.54)</td>
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>id [OPTION]... [USER]</td>
+    <td>Print  user  and  group information for the specified USER, or (when USER omitted) for the<br><br>       current user.</td>
+    <td>sp1a@rpi08:~ $ id<br><br>uid=1001(sp1a) gid=1001(sp1a) groups=1001(sp1a),997(gpio)</td>
+  </tr>
+  <tr>
+    <td>Clear</td>
+    <td>clear [-Ttype] [-V] [-x]</td>
+    <td>Clear all previous commands</td>
+    <td>sp1a@rpi08:~ $</td>
+  </tr>
+  <tr>
+    <td>w</td>
+    <td>w [options] user [...]</td>
+    <td>w displays information about the users currently on the machine, and their processes.  The header shows, in this order, the current time, how long the system has been  running,  how many users are currently logged on, and the system load averages for the past 1, 5, and 15 minutes.</td>
+    <td>12:41:03 up 1 day,  5:21,  3 users,  load average: 0.02, 0.02, 0.00<br><br>USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT<br><br>sp1b     pts/0    172.19.32.54     11:51   49:44   0.25s  0.25s -bash<br><br>sp1a     pts/1    172.19.32.27     11:53    2.00s  0.43s  0.03s w<br><br>sp1b     pts/2    172.19.32.54     11:53    1:52   0.37s  0.37s -bash</td>
+  </tr>
+</table>	
+   </body>
+</html>

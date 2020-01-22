@@ -1,0 +1,15 @@
+body{ 
+background-color: red;
+}
+h1 { 
+ font-family: verdana;
+ font-size: 300%;
+ color:black}
+p {color: black}
+li {color: black}
+table, th, td {
+	 font-family: verdana;
+ 	font-size:70%;
+	border: 1px solid white;
+	border-color: purple;
+}
